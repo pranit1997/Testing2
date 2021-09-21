@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+
+
+    <test name="C:/Users/Academy/IdeaProjects/Testing/src/main/java/BatchTesting/LoginTest.java" preserve-order="true"
+          verbose="2">
+
+
+        <classes>
+
+
+            <class name="BatchTesting.LoginTest">
+
+
+                <methods>
+
+                    <include name="loginbyemail"/>
+
+                    <include name="loginbyfacebook"/>
+
+                    <include name="loginbytwitter"/>
+
+                </methods>
+
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
