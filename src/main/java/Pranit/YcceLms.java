@@ -19,8 +19,9 @@ driver.findElement(By.name("email")).sendKeys("pranitt");
        Actions actions = new Actions(driver);
       WebElement slider = driver.findElement(By.id("nav-bar"));
       actions.moveToElement(slider).click().build().perform();
+      driver.findElement(By.xpath("//svg[contains(@id,'header-toggle']")).click();
       Thread.sleep(5000);
-      driver.findElement(By.xpath("//span[text()='Courses']")).click();
+      driver.findElement(By.linkText("Courses")).click();
       driver.findElement(By.xpath("//div[contains(@class, 'classJumbotron px-0 jumbotron')]")).click();
       driver.close();
 
